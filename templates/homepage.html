@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Pokemon</title>
+    
+    <style>
+            body {
+                background-image: url("http://www.sdjgjx.com/up/pc/Cartoon%20Clouds%20Wallpaper%2046932.jpg")
+            }
+            h1 {
+                text-align: center;
+                font-size: 70px;
+                text-transform: uppercase;
+                letter-spacing: 2px
+            }
+            p {
+                text-align: center;
+            }
+    </style>
+
+</head>
+<body>
+    <h1><img src="https://cdn.bulbagarden.net/upload/3/3c/Season8_logo.png" height="150px" width="350px"></h1>
+
+    <form action="http://localhost:5000/hasil" method="POST">
+        <p>
+            <input name="pokemon1" type="text" placeholder="Pokemon 1 ..."/>
+        </p>
+        <h1><img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Dueling_lightsabers.svg" height="150px" width="350px"></h1>
+        <p>
+            <input name="pokemon2" type="text" placeholder="Pokemon 2 ..."/>
+        </p>
+        <p>
+            <input type="submit" class="btn btn-success" value="Battle!"/>
+        </p>
+    </form>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
